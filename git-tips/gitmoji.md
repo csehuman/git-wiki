@@ -42,7 +42,7 @@ git push
 
 ---
 <a name="option-two"></a>
-### Gitmoji 사용법 #2: gitmoji-cli 사용하기!<br/><br/>
+### Gitmoji 사용법 #2: [gitmoji-cli](https://www.npmjs.com/package/gitmoji-cli) 사용하기!<br/><br/>
 **초기 설치:**
 1. gitmoji-cli 설치하기
 - npm 사용시:
@@ -67,20 +67,20 @@ git add .
 ```
 gitmoji -c
 ```
-3. 사용할 깃모지 선택
+3. 사용할 깃모지 선택 후, `Enter`
 - `Choose a gitmoji`가 화면에 나올 시, 위아래 방향키 통해 깃모지 목록들 볼 수 있음.
 - 원하는 깃모지나, 현재 상황등을 검색하면 이에 맞는 깃모지 목록들이 나올 것임. ex) bug, new, initial 등
-- 원하는 깃모지 선택후 `Enter`클릭
+- 원하는 깃모지 선택
 
-4. 커밋 제목 지정하기
+4. 커밋 제목 지정한 후, `Enter`
 - 깃모지는 무조건 제목 전에 나올 것 ex) 💡Hello
 - 원하는 커밋 제목 (title) 지정
 
-5. 커밋 내용 지정하기
+5. 커밋 내용 지정한 후, `Enter`
 - 커밋에 들어갈 내용 작성.
 - 원하는 내용 없을 시, 비어둔 채로 넘어가도 됨.
 
-6. `Enter`누르면 커밋이 생성됨.
+6. `Enter`누를 시, 커밋이 생성됨.
 
 7. 해당 커밋 푸쉬 후, 깃허브에서 커밋 결과 확인하기
 
